@@ -1,6 +1,6 @@
-var authorization = "Bearer ***"; // replace by authorization value
+var authorization = "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"; // replace by authorization value
 var ua = navigator.userAgentData.brands.map(brand => `"${brand.brand}";v="${brand.version}"`).join(', ');
-var client_tid = "***"; // replace by X-Client-Transaction-Id value
+var client_tid = "8Bb6Fdtv0uDrvhJulZ/MNbZ0pig4Kq+OoM3Uf8Pk5MGZDlLNbEH6vYWsErzay/lQayralvO2VHMMjDfeCQKUXBgTHCxT8w"; // replace by X-Client-Transaction-Id value
 var client_uuid = "***"; // replace by X-Client-Uuid value
 var csrf_token = getCookie("ct0");
 var random_resource = "uYU5M2i12UhDvDTzN6hZPg";
@@ -8,7 +8,7 @@ var random_resource_old_tweets = "H8OOoI-5ZE4NxgRr8lfyWg"
 var language_code = navigator.language.split("-")[0]
 var tweets_to_delete = []
 var user_id = getCookie("twid").substring(4);
-var username = "YourUsernameHere" // replace with your username
+var username = "@R0ckstar_111" // replace with your username
 var stop_signal = undefined
 var twitter_archive_content = undefined
 var twitter_archive_loading_confirmed = false
@@ -53,7 +53,7 @@ var delete_options = {
 		"222222222222" // are examples, you can safely keep them or replace them by your own ids.
 	],
 	/* old_tweets : IF the script worked without any error but haven't deleted some old tweets, set this to true.*/
-	"old_tweets":false,
+	"old_tweets":true,
 	/*
 		after_date // before_date : allows you to delete tweets that belong in a specific time frame
 		In the example below, tweets that were made before 2100-01-01 AND after 1900-01-01 will be deleted. (these dates are not included. It's AFTER and BEFORE)
